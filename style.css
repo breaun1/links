@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  background-image: url("sawyer-bengtson--csZbF1o5_k-unsplash.jpg");
+  background-size: 1500px;
+ 
+}
+
+h1{
+  color:orange;
+  background-color: grey;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  color: #fffffe;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  color: #fffffe;
+  text-decoration: none;
+}
+
+
+.link {
+  background-color: #A5A5A5;
+  display: flex;
+  align-items: center;
+  padding:15px;
+}
+
+.link a {
+  color: #001e1d;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+  
+}
+
+div a:hover{
+  color:orange;
+  background-color: grey;
+  font-size:25px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* * {
+  border: thin red solid;
+} */
